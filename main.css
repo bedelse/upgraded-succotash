@@ -1,0 +1,206 @@
+
+
+body
+{
+	margin:  0;
+	margin-top: -20px;
+	padding: 0;
+	background-color: #f2f2f2;
+	color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.title
+{
+	height: 100px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	
+	/*
+	position: fixed;
+	z-index: 100;
+	width:100%;
+	margin: 0;
+	padding: 0; 
+	kurs nr 3css*/
+}
+
+h1.logo a
+{
+	
+	text-decoration: none;
+	color: #333333;
+	float: left;
+	font-size: 18px;
+	font-weight: 550;
+	text-align: left;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	opacity: 0.5;
+	transition: opacity 0.4s;
+	
+	
+
+}
+
+h1.logo a:hover
+{
+	opacity: 1;
+}
+
+
+nav
+{ 
+	text-align: left;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	
+ }
+ 
+ .menu 
+ {
+	 
+	 list-style-type: none;
+	 margin: 0;
+	 margin-top: 10px;
+	 padding: 10px;
+	 font-size: 18px;
+	 min-height: 40px;
+	 line-height: 100%;
+	
+	 
+	 
+ }
+ 
+.menu > li
+ {
+	 /* kazdy z li elementow listy menu jest na tym samym poziomie */
+	 display: inline-block;
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 border-right: 1px solid #333333;
+	 
+	 
+ }
+ /* dotyczy tylko ostatniego elementu, usuwam linie*/
+ .menu > li:last-child
+  {
+	 border-right: none;
+ }
+ 
+  /* zeby usunac podkreslenie elementuw w menu*/
+ .menu a
+ {
+	 color: #333333;
+	 text-decoration:none;
+	 opacity: 0.5;
+	 transition: opacity 0.4s;
+ }
+ 
+ .menu a:hover
+ {
+	opacity: 1;
+	  		 
+ }
+ 
+  .menu2 
+ {
+	 
+	 list-style-type: none;
+	margin: 0;
+	margin-top: 20px;
+	 margin-right: 70px;
+	  text-align: center;
+	 padding: 10px;
+	 font-size: 15px;
+	 min-height: 40px;
+	 line-height: 200%;
+	 
+	 
+ }
+ 
+ 
+ .menu2 > li
+ {
+	 /* kazdy z li elementow listy menu jest na tym samym poziomie */
+	 display: inline-block;
+	 padding-left: 50px;
+	 padding-right: 50px;
+	 
+	 
+	 
+ }
+
+ 
+  /* zeby usunac podkreslenie elementuw w menu*/
+ .menu2 a
+ {
+	 color: #333333;
+	 text-decoration:none;
+	 transition: text-decoration 2s;
+ }
+ 
+ .menu2 a:hover
+ {
+	text-decoration: underline;
+	  		 
+ }
+ 
+ 
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	
+	padding: 0;
+}
+
+h1
+{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.author
+{
+	display: inline-block;
+	margin-top: 10px;
+	opacity: 0.8;
+	transition: all 0.85s;
+	
+}
+
+.author:hover
+{
+	
+	opacity: 1;
+		
+	/* przejscie powtorzenie cehcy plus czas */
+	
+}
+.author img
+{	
+	object-fit: cover;
+	width: 280px;
+	height: 220px;
+}
+
+
+figure
+{
+	margin: 10px;
+	padding: 0;
+} 
+
+
+ 

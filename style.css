@@ -1,0 +1,311 @@
+
+
+body
+{
+	margin:  0;
+	margin-top: -20px;
+	padding: 0;
+	background-color: #f2f2f2;
+	color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+	
+}
+
+.title
+{
+	height: 100px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 100;
+	width:100%;
+	
+	
+}
+
+p
+{
+	
+	line-height: 200%;
+	letter-spacing: 1px;
+	font-size: 13px;
+	
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("portfolio/up.png") no-repeat 0px 0px; 
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	z-index: 101;
+}
+
+h1.logo a
+{
+	
+	text-decoration: none;
+	color: #333333;
+	float: left;
+	font-size: 18px;
+	font-weight: 550;
+	text-align: left;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	opacity: 0.5;
+	transition: opacity 0.4s;
+	
+	
+
+}
+
+h1.logo a:hover
+{
+	opacity: 1;
+}
+
+
+nav
+{ 
+	text-align: left;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	
+	
+ }
+ 
+ .menu 
+ {
+	 
+	 list-style-type: none;
+	 margin: 0;
+	 margin-top: 10px;
+	 padding: 10px;
+	 font-size: 18px;
+	 min-height: 40px;
+	 line-height: 100%;
+	
+	 
+	 
+ }
+ 
+.menu > li
+ {
+	 /* kazdy z li elementow listy menu jest na tym samym poziomie */
+	 display: inline-block;
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 border-right: 1px solid #333333;
+	 
+	 
+ }
+ /* dotyczy tylko ostatniego elementu, usuwam linie*/
+ .menu > li:last-child
+  {
+	 border-right: none;
+ }
+ 
+  /* zeby usunac podkreslenie elementuw w menu*/
+ .menu a
+ {
+	 color: #333333;
+	 text-decoration:none;
+	 opacity: 0.5;
+	 transition: opacity 0.4s;
+ }
+ 
+ .menu a:hover
+ {
+	opacity: 1;
+	  		 
+ }
+ 
+ .sticky
+ {
+	 width: 100%;
+	 position: fixed;
+	 left: 0;
+	 top: 0;
+	 z-index: 100;
+ }
+ 
+ 
+  .menu2 
+ {
+	 
+	 list-style-type: none;
+	margin: 0;
+	margin-top: 20px;
+	 margin-right: 70px;
+	  text-align: center;
+	 padding: 10px;
+	 font-size: 15px;
+	 min-height: 40px;
+	 line-height: 200%;
+	 
+	 
+ }
+ 
+ 
+ .menu2 > li
+ {
+	 /* kazdy z li elementow listy menu jest na tym samym poziomie */
+	 display: inline-block;
+	 padding-left: 50px;
+	 padding-right: 50px;
+	 
+	 
+	 
+ }
+
+ 
+  /* zeby usunac podkreslenie elementuw w menu*/
+ .menu2 a
+ {
+	 color: #333333;
+	 text-decoration:none;
+	 transition: text-decoration 2s;
+ }
+ 
+ .menu2 a:hover
+ {
+	text-decoration: underline;
+	  		 
+ }
+ 
+ 
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	
+	padding: 0;
+}
+
+h1
+{
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.author
+{
+	display: inline-block;
+	margin-top: 10px;
+	opacity: 0.8;
+	transition: all 0.85s;
+	
+}
+
+.author:hover
+{
+	
+	opacity: 1;
+		
+	/* przejscie powtorzenie cehcy plus czas */
+	
+}
+.author img
+{	
+	object-fit: cover;
+	width: 280px;
+	height: 220px;
+}
+
+
+figure
+{
+	margin: 10px;
+	padding: 0;
+} 
+
+.container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1000px;
+	
+}
+
+.west
+{
+	float:left;
+	width: 270px;
+		
+}
+
+.west h4
+{
+	margin:0;
+	padding-bottom: 10px;
+}
+
+.info p1
+{
+	
+	float: left;
+	line-height: 200%;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding-right: 20px;
+	font-weight: 600;
+	
+}
+
+
+
+
+.east
+{
+	float:left;
+	width: 700px;
+	padding-left: 30px;
+	
+	
+}
+
+.east img
+{
+	max-width: 100%;
+	padding-bottom: 10px;
+}
+
+
+.east a
+{
+	transition: all 0.85s;
+	
+}
+
+.east a:hover
+{
+	opacity: 0.8;
+}
+
+
+.container h1
+{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	margin-left: 0;
+	
+}
+ 
